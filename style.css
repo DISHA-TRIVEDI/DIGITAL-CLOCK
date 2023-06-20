@@ -1,0 +1,64 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  text-align: center;
+  padding: 10px;
+  margin: 40px;
+  background-color: black;
+  color: white;
+}
+
+#clock {
+  font-family: cursive;
+  font-size: 10vh;
+}
+
+.container-clock {
+  font-size: 20vh;
+  padding-top: 10px;
+  padding-left: 20vh;
+}
+
+.time{
+    padding: 30px;
+    border-width:5px;
+    border-style: solid;
+    border-radius: 50%;
+    
+}
+#hours{ 
+    border-color: #07f207;
+    right: 0;
+    top: 0;
+    animation: transform, 20s, linear;
+}  
+#mins{
+  border-color: #ae00ff;
+}
+#secs{
+  border-color: #00d5ff;
+}
+.container-time {
+  font-size: 20px;
+  padding-top:60px;
+}
+
+.clock {
+  padding-left: 20vh;
+}
+
+#hs {
+  padding-left: 3vh;
+}
+
+.container-date {
+  padding: 30px;
+  font-size: 45px;
+}
+
+#AMPM{
+  font-size: 45px;
+}
