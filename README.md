@@ -15,5 +15,4 @@ When building a digital clock, JavaScript utilizes the Date object, a built-in J
 
 This is achieved by accessing the clock container element using its ID or class and modifying its innerHTML property to reflect the updated time. By doing so, JS ensures that the displayed time is continuously updated and accurately reflects the current time.
 
-
        
